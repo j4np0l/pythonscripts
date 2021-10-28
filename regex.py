@@ -19,6 +19,8 @@ if __name__ == "__main__":
         for match in re.findall(pattern, line):
             results.add(match) #We add each result to the set
 
+            #test comment
+
     for j in results:
         print(j)
     
